@@ -1,0 +1,2 @@
+A.sort()
+        return A
