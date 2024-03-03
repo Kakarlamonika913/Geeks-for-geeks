@@ -1,0 +1,17 @@
+print("the coordinate of a point")
+x=float(input('x='))
+y=float(input('y='))
+if x>0 and y>0:
+    print("I quadrant")
+elif x<0 and y>0:
+    print("II quadrent")
+elif x<0 and y<0:
+    print("III quadrent")
+elif x>0 and y<0:
+    print("IV quadrent")
+elif x==0 and y==0:
+    print("origin")
+elif x==0:
+    print("on x-axis")
+elif y==0:
+    print("on y-axis")
