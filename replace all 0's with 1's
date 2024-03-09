@@ -1,0 +1,2 @@
+a= input("enter an integer:\n")
+print(a.replace("0","1"))
